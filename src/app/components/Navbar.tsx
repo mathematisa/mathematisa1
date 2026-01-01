@@ -23,9 +23,6 @@ export function Navbar() {
             <Link to="/animations" className="text-gray-300 hover:text-[#FC2490] transition-colors">
               Animations
             </Link>
-            <Link to="/marketplace" className="text-gray-300 hover:text-[#FC2490] transition-colors">
-              Code Marketplace
-            </Link>
             <Link to="/courses" className="text-gray-300 hover:text-[#FC2490] transition-colors">
               Courses
             </Link>
@@ -64,13 +61,6 @@ export function Navbar() {
               className="block px-3 py-2 text-gray-300 hover:text-[#FC2490] hover:bg-[#FC2490]/10 rounded-lg transition-colors"
             >
               Animations
-            </Link>
-            <Link
-              to="/marketplace"
-              onClick={() => setIsOpen(false)}
-              className="block px-3 py-2 text-gray-300 hover:text-[#FC2490] hover:bg-[#FC2490]/10 rounded-lg transition-colors"
-            >
-              Code Marketplace
             </Link>
             <Link
               to="/courses"
