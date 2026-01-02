@@ -9,6 +9,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    outDir: 'docs', // Changes output from 'dist' to 'docs'
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
